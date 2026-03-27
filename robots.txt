@@ -1,16 +1,4 @@
-# robots.txt for Emmanuel Nyandu Kagarabi's Academic Portfolio
-# This file helps search engines crawl and index the website
-
 User-agent: *
 Allow: /
-Disallow: 
 
-# Specific rules for search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
+Sitemap: https://emmanuelnyandukagarabi.github.io/sitemap.xml
