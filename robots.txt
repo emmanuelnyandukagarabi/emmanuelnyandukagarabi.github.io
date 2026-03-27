@@ -5,9 +5,6 @@ User-agent: *
 Allow: /
 Disallow: 
 
-# Allow crawling of all content
-Sitemap: https://emmanuelnyandukagarabi.github.io/SITEMAP.md
-
 # Specific rules for search engines
 User-agent: Googlebot
 Allow: /
