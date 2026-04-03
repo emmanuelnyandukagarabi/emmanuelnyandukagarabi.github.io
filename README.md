@@ -7,13 +7,12 @@ Live at [emmanuelnyandukagarabi.github.io](https://emmanuelnyandukagarabi.github
 
 ## About
 
-I am a Machine Learning Engineer and researcher with a background in Mathematics (BSc),
+I am a Machine Learning Engineer and AI enthusiast with a background in Mathematics (BSc),
 Artificial Intelligence for Science (MSc, AIMS South Africa & Stellenbosch University),
 and Data Management and Curation (Professional MSc, SISSA — ongoing).
 
-My work focuses on **AI4 Public Health**, **Explainable & Interpretable AI**, and
-**Machine Learning**, with a strong interest in applying these to high-stakes domains
-like healthcare and epidemiology. I am actively seeking PhD opportunities in these areas.
+I am  committed to leveraging my diverse skill set to contribute to cutting-edge projects with a focus
+on Machine Learning, Data Management, and their intersection. I am actively seeking PhD opportunities in these areas.
 
 ---
 
@@ -41,17 +40,20 @@ like healthcare and epidemiology. I am actively seeking PhD opportunities in the
 ## Key Projects
 
 ### MSc AI Thesis — Dengue Virus Early Detection (2024)
+
 AI-powered classification and early detection of Dengue virus lineages for timely
 public health response. Developed at AIMS South Africa & Stellenbosch University
 in collaboration with CERI.
 → [Download Thesis](https://emmanuelnyandukagarabi.github.io/theses/emmanuelnk_MSc_AI4Science_thesis.pdf)
 
 ### MSc Data Management Thesis — DPCfam & DPCstruct Web App (2026)
+
 Web application for interactive exploration of DPCfam and DPCstruct datasets,
 developed at SISSA (International School for Advanced Studies), Trieste.
 → [View Repository](https://github.com/emmanuelnyandukagarabi/dpc_fam_and_struct_webapp)
 
 ### Deep Learning Indaba Poster — Kigali (2025).
+
 → [Download Poster](https://emmanuelnyandukagarabi.github.io/posters/Emmanuelnk_DL_Indaba_Kigali_2025_Poster.pdf)
 
 ---
@@ -59,6 +61,7 @@ developed at SISSA (International School for Advanced Studies), Trieste.
 ## Running Locally
 
 No build step required — this is a static HTML/CSS site.
+
 ```bash
 git clone https://github.com/emmanuelnyandukagarabi/emmanuelnyandukagarabi.github.io.git
 cd emmanuelnyandukagarabi.github.io
