@@ -7,7 +7,7 @@ Live at [emmanuelnyandukagarabi.github.io](https://emmanuelnyandukagarabi.github
 
 ## About
 
-I am a Machine Learning Engineer and AI enthusiast with a background in Mathematics (BSc),
+I am a Machine Learning Engineer, Data Manager & Data Curator with a background in Mathematics (BSc),
 Artificial Intelligence for Science (MSc, AIMS South Africa & Stellenbosch University),
 and Data Management and Curation (Professional MSc, SISSA — ongoing).
 
@@ -50,7 +50,11 @@ in collaboration with CERI.
 
 Web application for interactive exploration of DPCfam and DPCstruct datasets,
 developed at SISSA (International School for Advanced Studies), Trieste.
-→ [View Repository](https://github.com/emmanuelnyandukagarabi/dpc_fam_and_struct_webapp)
+→ [Download Thesis](https://emmanuelnyandukagarabi.github.io/theses/emmanuelnk_MDMC_thesis_SISSA_15_05_2026.pdf)
+
+### PRP Poster — Trieste (2026).
+
+→ [Download Poster](https://emmanuelnyandukagarabi.github.io/posters/emmanuelnk_PRP_poster.pdf)
 
 ### Deep Learning Indaba Poster — Kigali (2025).
 
