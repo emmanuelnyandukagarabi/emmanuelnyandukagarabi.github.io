@@ -7,12 +7,17 @@ Live at [emmanuelnyandukagarabi.github.io](https://emmanuelnyandukagarabi.github
 
 ## About
 
-I am a Machine Learning Engineer, Data Manager & Data Curator with a background in Mathematics (BSc),
-Artificial Intelligence for Science (MSc, AIMS South Africa & Stellenbosch University),
-and Data Management and Curation (Professional MSc, SISSA — ongoing).
+I am a Machine Learning Engineer, Data Manager, and Data Curator working at the intersection of ML and
+research data management. My background spans Mathematics (BSc, TTC-Bukavu), Artificial Intelligence
+for Science (MSc, AIMS South Africa & Stellenbosch University, funded by Google DeepMind), and Data
+Management and Curation (Professional MSc, SISSA, funded by Area Science Park — ongoing).
 
-I am  committed to leveraging my diverse skill set to contribute to cutting-edge projects with a focus
-on Machine Learning, Data Management, and their intersection. I am actively seeking PhD opportunities in these areas.
+I am committed to leveraging this mixed background to contribute to cutting-edge projects at the
+intersection of Machine Learning and Data Management, with an emphasis on reproducible, FAIR tools.
+I am actively seeking PhD opportunities in these areas.
+
+Each research output is deposited on Zenodo with a citable DOI. See my
+[ORCID profile](https://orcid.org/0009-0000-4837-4712).
 
 ---
 
@@ -37,28 +42,29 @@ on Machine Learning, Data Management, and their intersection. I am actively seek
 
 ---
 
-## Key Projects
+## Key Research Outputs (Zenodo DOIs)
+
+### DPCexplorer — eScience 2026 preprint (under review)
+
+DPCexplorer: A Django Web Application for Interactive Exploration of DPCfam and DPCstruct Protein
+Domain Classifications. Under review at the 22nd IEEE International Conference on eScience.
+→ [Preprint DOI](https://doi.org/10.5281/zenodo.20766432) ·
+[Software DOI](https://doi.org/10.5281/zenodo.20575268) ·
+[Dataset DOI](https://doi.org/10.5281/zenodo.20159208)
+
+### MSc Data Management Thesis — DPCexplorer (2026)
+
+Web application for interactive exploration of DPCfam and DPCstruct datasets, developed at SISSA, Trieste.
+→ [Thesis DOI](https://doi.org/10.5281/zenodo.20847161) ·
+[Poster DOI](https://doi.org/10.5281/zenodo.20853112) ·
+[Slides DOI](https://doi.org/10.5281/zenodo.20850391)
 
 ### MSc AI Thesis — Dengue Virus Early Detection (2024)
 
-AI-powered classification and early detection of Dengue virus lineages for timely
-public health response. Developed at AIMS South Africa & Stellenbosch University
-in collaboration with CERI.
-→ [Download Thesis](https://emmanuelnyandukagarabi.github.io/theses/emmanuelnk_MSc_AI4Science_thesis.pdf)
-
-### MSc Data Management Thesis — DPCfam & DPCstruct Web App (2026)
-
-Web application for interactive exploration of DPCfam and DPCstruct datasets,
-developed at SISSA (International School for Advanced Studies), Trieste.
-→ [Download Thesis](https://emmanuelnyandukagarabi.github.io/theses/emmanuelnk_MDMC_thesis_SISSA_15_05_2026.pdf)
-
-### PRP Poster — Trieste (2026).
-
-→ [Download Poster](https://emmanuelnyandukagarabi.github.io/posters/emmanuelnk_PRP_poster.pdf)
-
-### Deep Learning Indaba Poster — Kigali (2025).
-
-→ [Download Poster](https://emmanuelnyandukagarabi.github.io/posters/Emmanuelnk_DL_Indaba_Kigali_2025_Poster.pdf)
+AI-powered classification and early detection of Dengue virus lineages for timely public health response.
+Developed at AIMS South Africa & Stellenbosch University in collaboration with CERI.
+→ [Thesis DOI](https://doi.org/10.5281/zenodo.21171386) ·
+[DL Indaba 2025 Poster DOI](https://doi.org/10.5281/zenodo.21180374)
 
 ---
 
@@ -93,5 +99,3 @@ python -m http.server 8000
 - Website: [emmanuelnyandukagarabi.github.io](https://emmanuelnyandukagarabi.github.io)
 
 ---
-
-© 2026 Emmanuel Nyandu Kagarabi

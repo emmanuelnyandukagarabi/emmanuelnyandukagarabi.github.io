@@ -484,11 +484,35 @@ body {
     }
 }
 
+/* Hero actions */
+.hero-actions {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Current focus box */
+.focus-box {
+    background: var(--light-gray);
+    border-left: 5px solid var(--primary-color);
+}
+
+.focus-box a {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.focus-box a:hover {
+    text-decoration: underline;
+}
+
 /* Print Styles */
 @media print {
     .navbar,
     .footer,
-    .buttons-group {
+    .hero-actions {
         display: none;
     }
 

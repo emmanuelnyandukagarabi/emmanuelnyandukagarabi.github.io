@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Research projects and theses by Emmanuel Nyandu Kagarabi — Dengue virus AI detection, DPC web app, Deep Learning Indaba poster.">
+    <meta name="description" content="Projects by Emmanuel Nyandu Kagarabi — DPCexplorer (eScience 2026 preprint, software, dataset), Dengue virus AI detection, theses, posters, and teaching resources, with Zenodo DOIs.">
     <meta name="author" content="Emmanuel Nyandu Kagarabi">
     <link rel="canonical" href="https://emmanuelnyandukagarabi.github.io/pages/projects.html">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Projects | Emmanuel Nyandu Kagarabi">
-    <meta property="og:description" content="Theses, posters, and research contributions by Emmanuel Nyandu Kagarabi in AI4 Public Health and Explainable AI.">
+    <meta property="og:description" content="Publications, software, datasets, theses, and posters in ML and research data management, with citable Zenodo DOIs.">
     <meta property="og:url" content="https://emmanuelnyandukagarabi.github.io/pages/projects.html">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://emmanuelnyandukagarabi.github.io/static/emma_profile.png">
 
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Projects | Emmanuel Nyandu Kagarabi">
+    <meta name="twitter:description" content="Publications, software, datasets, theses, and posters in ML and research data management.">
+    <meta name="twitter:image" content="https://emmanuelnyandukagarabi.github.io/static/emma_profile.png">
+
     <title>Projects | Emmanuel Nyandu Kagarabi</title>
 
-    <link rel="icon" type="image/png" href="../static/emma_profile.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16.png">
+    <link rel="apple-touch-icon" href="../static/apple-touch-icon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
@@ -28,7 +36,7 @@
             <a class="navbar-brand" href="../index.html">
                 <strong>Emmanuel Nyandu Kagarabi</strong>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -46,146 +54,211 @@
     <!-- Page Header -->
     <div class="page-header">
         <div class="container">
-            <h2 class="display-4 fw-bold mb-2">Projects</h2>
-            <p class="lead text-muted">Theses, research papers, and scholarly contributions</p>
+            <h1 class="display-4 fw-bold mb-2">Projects</h1>
+            <p class="lead mb-0">Publications, software, data, theses, and posters. Each research output has a DOI on Zenodo, so it can be cited.</p>
         </div>
     </div>
 
     <!-- Main Content -->
     <div class="page-section">
         <div class="container">
-            <!-- Research Papers -->
+
+            <!-- I. Publications -->
             <section class="mb-5">
-                <h3 class="mb-4"><i class="fas fa-book"></i> I. Research Papers</h3>
+                <h2 class="h3 mb-4"><i class="fas fa-book" aria-hidden="true"></i> I. Publications</h2>
 
                 <div class="pub-card mb-4 p-4 border rounded shadow-sm bg-light">
                     <div class="d-flex justify-content-between align-items-start mb-2">
-                        <h4 class="mb-0 text-primary">AI-Powered Early Detection of Dengue Virus Lineages</h4>
+                        <h3 class="h4 mb-0 text-primary">DPCexplorer: A Django Web Application for Interactive Exploration of DPCfam and DPCstruct Protein Domain Classifications</h3>
+                        <span class="badge bg-warning text-dark ms-3 fs-6">Under Review</span>
+                    </div>
+                    <p class="text-muted mb-1"><i class="fas fa-user me-2" aria-hidden="true"></i>E. Nyandu Kagarabi, E. Saadat, V. Piomponi</p>
+                    <p class="mb-2">
+                        Preprint of a paper under review at the IEEE eScience 2026 conference in Naples, Italy.
+                        DPCexplorer takes two very large protein-domain datasets and makes them easy to search in a web browser. It uses a database and a 3D structure viewer, and follows the FAIR principles.
+                    </p>
+                    <p class="mb-2">
+                        <span class="badge bg-light text-secondary border">Data Management</span>
+                        <span class="badge bg-light text-secondary border ms-1">Django</span>
+                        <span class="badge bg-light text-secondary border ms-1">Bioinformatics</span>
+                        <span class="badge bg-light text-secondary border ms-1">FAIR</span>
+                    </p>
+                    <a href="https://doi.org/10.5281/zenodo.20766432" target="_blank" rel="noopener" class="btn btn-sm btn-primary mt-2">
+                        <i class="fas fa-quote-right" aria-hidden="true"></i> Preprint (DOI)
+                    </a>
+                </div>
+
+                <div class="pub-card mb-4 p-4 border rounded shadow-sm bg-light">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h3 class="h4 mb-0 text-primary">AI-Powered Early Detection of Dengue Virus Lineages</h3>
                         <span class="badge bg-warning text-dark ms-3 fs-6">In Preparation</span>
                     </div>
-                    <p class="text-muted mb-1"><i class="fas fa-user me-2"></i>Emmanuel Nyandu Kagarabi</p>
+                    <p class="text-muted mb-1"><i class="fas fa-user me-2" aria-hidden="true"></i>Emmanuel Nyandu Kagarabi</p>
                     <p class="mb-2">
-                        Extension of MSc thesis work on classification and early detection of Dengue virus lineages
-                        using machine learning, developed in collaboration with CERI (Centre for Epidemic Response
-                        and Innovation), Stellenbosch University.
+                        Extension of my MSc thesis on classification and early detection of Dengue virus lineages with machine learning, developed in collaboration with CERI (Centre for Epidemic Response and Innovation), Stellenbosch University.
                     </p>
-                    <span class="badge bg-light text-secondary border">AI4 Public Health</span>
+                    <span class="badge bg-light text-secondary border">AI for Public Health</span>
                     <span class="badge bg-light text-secondary border ms-1">Genomic Surveillance</span>
                     <span class="badge bg-light text-secondary border ms-1">Classification</span>
                 </div>
             </section>
-            <!-- Master's Theses -->
-            <section>
-                <h3 class="mb-4"><i class="fas fa-graduation-cap"></i> II. Theses</h3>
+
+            <!-- II. Software & Data -->
+            <section class="mb-5 pt-4 border-top">
+                <h2 class="h3 mb-4"><i class="fas fa-code" aria-hidden="true"></i> II. Software &amp; Data</h2>
+
+                <div class="pub-card mb-4 p-4 border rounded shadow-sm">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h3 class="h4 mb-0 text-primary">DPCexplorer (open-source software)</h3>
+                        <span class="badge bg-secondary ms-3 fs-6">MIT</span>
+                    </div>
+                    <p class="text-muted mb-2">An open-source Django web app for the DPCfam and DPCstruct datasets, with fast search, file downloads, and a 3D structure viewer. Released on Zenodo so it can be cited and reused.</p>
+                    <a href="https://doi.org/10.5281/zenodo.20575268" target="_blank" rel="noopener" class="btn btn-sm btn-primary mt-2 me-2">
+                        <i class="fas fa-quote-right" aria-hidden="true"></i> Software (DOI)
+                    </a>
+                    <a href="https://github.com/RitAreaSciencePark/dpc_fam_and_struct_webapp" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary mt-2">
+                        <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                    </a>
+                </div>
+
+                <div class="pub-card mb-4 p-4 border rounded shadow-sm">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h3 class="h4 mb-0 text-primary">Preprocessed Datasets for DPCexplorer</h3>
+                        <span class="badge bg-secondary ms-3 fs-6">Dataset</span>
+                    </div>
+                    <p class="text-muted mb-2">Clean, ready-to-use versions of the DPCfam and DPCstruct datasets (CSV, FASTA, and PDB files), prepared on the ORFEO HPC cluster and shared as open data.</p>
+                    <a href="https://doi.org/10.5281/zenodo.20159208" target="_blank" rel="noopener" class="btn btn-sm btn-primary mt-2">
+                        <i class="fas fa-database" aria-hidden="true"></i> Dataset (DOI)
+                    </a>
+                </div>
+            </section>
+
+            <!-- III. Theses -->
+            <section class="mb-5 pt-4 border-top">
+                <h2 class="h3 mb-4"><i class="fas fa-graduation-cap" aria-hidden="true"></i> III. Theses</h2>
 
                 <div class="pub-card mb-4 p-4 border rounded shadow-sm" id="dpc-thesis">
                     <div class="d-flex justify-content-between align-items-start mb-2">
-                        <h4 class="mb-0 text-primary">Web Application for DPCfam and DPCstruct Data Exploration</h4>
+                        <h3 class="h4 mb-0 text-primary">Web Application for DPCfam and DPCstruct Data Exploration</h3>
                         <span class="badge bg-secondary ms-3 fs-6">2026</span>
                     </div>
-                    <p class="text-muted"><i class="fas fa-university me-2"></i>SISSA – International School for Advanced Studies</p>
-                    <a href="../theses/emmanuelnk_MDMC_thesis_SISSA_15_05_2026.pdf" target="_blank" class="btn btn-sm btn-primary mt-2 me-2">
-                        <i class="fas fa-file-pdf"></i> Download Thesis
-                    </a>
-                    <a href="../posters/emmanuelnk_PRP_poster.pdf" target="_blank" class="btn btn-sm btn-primary mt-2">
-                        <i class="fas fa-file-pdf"></i> Download PRP Poster
+                    <p class="text-muted mb-2"><i class="fas fa-university me-2" aria-hidden="true"></i>SISSA – International School for Advanced Studies (MDMC)</p>
+                    <a href="https://doi.org/10.5281/zenodo.20847161" target="_blank" rel="noopener" class="btn btn-sm btn-primary mt-2">
+                        <i class="fas fa-quote-right" aria-hidden="true"></i> Thesis (DOI)
                     </a>
                 </div>
-                
+
                 <div class="pub-card mb-4 p-4 border rounded shadow-sm" id="dengue-thesis">
                     <div class="d-flex justify-content-between align-items-start mb-2">
-                        <h4 class="mb-0 text-primary">AI-Powered Classification and Early Detection of Dengue Virus Lineages for Timely Public Health Response</h4>
+                        <h3 class="h4 mb-0 text-primary">AI-Powered Classification and Early Detection of Dengue Virus Lineages for Timely Public Health Response</h3>
                         <span class="badge bg-secondary ms-3 fs-6">2024</span>
                     </div>
-                    <p class="text-muted"><i class="fas fa-university me-2"></i>AIMS South Africa & Stellenbosch University</p>
-                    <a href="../theses/emmanuelnk_MSc_AI4Science_thesis.pdf" target="_blank" class="btn btn-sm btn-primary mt-2 me-2">
-                        <i class="fas fa-file-pdf"></i> Download Thesis
-                    </a>
-                    <a href="../posters/Emmanuelnk_DL_Indaba_Kigali_2025_Poster.pdf" target="_blank" class="btn btn-sm btn-primary mt-2">
-                        <i class="fas fa-file-pdf"></i> DL Indaba 2025 Poster
+                    <p class="text-muted mb-2"><i class="fas fa-university me-2" aria-hidden="true"></i>AIMS South Africa &amp; Stellenbosch University</p>
+                    <a href="https://doi.org/10.5281/zenodo.21171386" target="_blank" rel="noopener" class="btn btn-sm btn-primary mt-2">
+                        <i class="fas fa-quote-right" aria-hidden="true"></i> Thesis (DOI)
                     </a>
                 </div>
 
                 <div class="pub-card mb-4 p-4 border rounded shadow-sm" id="bachelor-thesis">
                     <div class="d-flex justify-content-between align-items-start mb-2">
-                        <h4 class="mb-0 text-primary">Processing of Numerical Tensors</h4>
-                        <span class="badge bg-secondary ms-3 fs-6">2021</span>
+                        <h3 class="h4 mb-0 text-primary">Processing of Numerical Tensors</h3>
+                        <span class="badge bg-secondary ms-3 fs-6">2021 · BAC+5</span>
                     </div>
-                    <p class="text-muted"><i class="fas fa-university me-2"></i>Bukavu Teacher Training College</p>
-                    <a href="../theses/emmanuelnk_bac5_thesis.pdf" target="_blank" class="btn btn-sm btn-primary mt-2">
-                        <i class="fas fa-file-pdf"></i> Download Thesis
+                    <p class="text-muted mb-2"><i class="fas fa-university me-2" aria-hidden="true"></i>Bukavu Teacher Training College (TTC-Bukavu)</p>
+                    <a href="../theses/emmanuelnk_bac5_thesis.pdf" target="_blank" rel="noopener" class="btn btn-sm btn-primary mt-2">
+                        <i class="fas fa-file-pdf" aria-hidden="true"></i> Download Thesis
+                    </a>
+                </div>
+
+                <div class="pub-card mb-4 p-4 border rounded shadow-sm" id="bac3-thesis">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h3 class="h4 mb-0 text-primary">Numerical Methods for Nonlinear Optimization</h3>
+                        <span class="badge bg-secondary ms-3 fs-6">BAC+3</span>
+                    </div>
+                    <p class="text-muted mb-2"><i class="fas fa-university me-2" aria-hidden="true"></i>Bukavu Teacher Training College (TTC-Bukavu)</p>
+                    <a href="../theses/emmanuelnk_bac3_thesis.pdf" target="_blank" rel="noopener" class="btn btn-sm btn-primary mt-2">
+                        <i class="fas fa-file-pdf" aria-hidden="true"></i> Download Thesis
                     </a>
                 </div>
             </section>
 
-            <!-- Posters-->
-            <section class="mt-5 pt-5 border-top">
-                <h3 class="mb-4"><i class="fas fa-image"></i> III. Posters</h3>
+            <!-- IV. Posters & Talks -->
+            <section class="mb-5 pt-4 border-top">
+                <h2 class="h3 mb-4"><i class="fas fa-image" aria-hidden="true"></i> IV. Posters &amp; Talks</h2>
 
                 <div class="pub-card mb-4 p-4 border rounded shadow-sm">
                     <div class="d-flex justify-content-between align-items-start mb-2">
-                        <h4 class="mb-0 text-primary"><a href="https://prp-ri.eu/final-project-meeting-14-15-april-2026/" target="_blank">PRP Final Project Meeting</a>, Trieste</h4>
+                        <h3 class="h4 mb-0 text-primary">DPCexplorer MDMC Poster</h3>
                         <span class="badge bg-secondary ms-3 fs-6">2026</span>
                     </div>
-                    <p class="text-muted mb-3">Poster presentation summarizing my MDMC Master's <a href="projects.html#dpc-thesis">thesis</a>.</p>
-                    <a href="../posters/emmanuelnk_PRP_poster.pdf" target="_blank" class="btn btn-sm btn-primary">
-                        <i class="fas fa-file-pdf"></i> Download Poster
+                    <p class="text-muted mb-3">Poster summarising my DPCexplorer project (MDMC thesis).</p>
+                    <a href="https://doi.org/10.5281/zenodo.20853112" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+                        <i class="fas fa-quote-right" aria-hidden="true"></i> Poster (DOI)
                     </a>
                 </div>
 
+                <div class="pub-card mb-4 p-4 border rounded shadow-sm">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h3 class="h4 mb-0 text-primary">DPCexplorer Thesis Defense Slides</h3>
+                        <span class="badge bg-secondary ms-3 fs-6">2026</span>
+                    </div>
+                    <p class="text-muted mb-3">Presentation slides walking through the DPCexplorer project, from the annotation gap to the final platform.</p>
+                    <a href="https://doi.org/10.5281/zenodo.20850391" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+                        <i class="fas fa-quote-right" aria-hidden="true"></i> Slides (DOI)
+                    </a>
+                </div>
 
                 <div class="pub-card mb-4 p-4 border rounded shadow-sm">
                     <div class="d-flex justify-content-between align-items-start mb-2">
-                        <h4 class="mb-0 text-primary"><a href="https://deeplearningindaba.com/2025/" target="_blank">Deep Learning Indaba 2025</a>, Kigali</h4>
+                        <h3 class="h4 mb-0 text-primary"><a href="https://deeplearningindaba.com/2025/" target="_blank" rel="noopener">Deep Learning Indaba 2025</a>, Kigali</h3>
                         <span class="badge bg-secondary ms-3 fs-6">2025</span>
                     </div>
-                    <p class="text-muted mb-3">Poster presentation summarizing my AI4Science Master's <a href="projects.html#dengue-thesis">thesis</a>.</p>
-                    <a href="../posters/Emmanuelnk_DL_Indaba_Kigali_2025_Poster.pdf" target="_blank" class="btn btn-sm btn-primary">
-                        <i class="fas fa-file-pdf"></i> Download Poster
+                    <p class="text-muted mb-3">Poster presentation of my AI for Science Master's thesis on Dengue virus lineage detection (Poster #119).</p>
+                    <a href="https://doi.org/10.5281/zenodo.21180374" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+                        <i class="fas fa-quote-right" aria-hidden="true"></i> Poster (DOI)
                     </a>
                 </div>
             </section>
 
-            <!-- Courses-->
-            <section class="mt-5 pt-5 border-top">
-                <h3 class="mb-4"><i class="fas fa-chalkboard-teacher"></i> IV. Teaching Resources</h3>
-                
+            <!-- V. Teaching Resources -->
+            <section class="pt-4 border-top">
+                <h2 class="h3 mb-4"><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i> V. Teaching Resources</h2>
+
                 <div class="pub-card mb-4 p-4 border rounded shadow-sm">
                     <div class="d-flex justify-content-between align-items-start mb-2">
-                        <h4 class="mb-0 text-primary">Mathematics for Chemists II</h4>
-                        <span class="badge bg-secondary ms-3 fs-6">2023</span>
-                    </div>
-                    <p class="text-muted mb-3">Course material distributed during academic tutoring.</p>
-                    <a href="../courses/MATHS_FOR_CHEMISTS.pdf" target="_blank" class="btn btn-sm btn-primary">
-                        <i class="fas fa-file-pdf"></i> Download Course Material
-                    </a>
-                </div>
-                
-                <div class="pub-card mb-4 p-4 border rounded shadow-sm">
-                    <div class="d-flex justify-content-between align-items-start mb-2">
-                        <h4 class="mb-0 text-primary">Linear Algebra and Analytic Geometry</h4>
+                        <h3 class="h4 mb-0 text-primary">Mathematics for Chemists II</h3>
                         <span class="badge bg-secondary ms-3 fs-6">2022</span>
                     </div>
-                    <p class="text-muted mb-3">Foundational mathematics material for undergraduate curriculum.</p>
-                    <a href="../courses/GUIDE_LA_AG.pdf" target="_blank" class="btn btn-sm btn-primary">
-                        <i class="fas fa-file-pdf"></i> Download Course Material
+                    <p class="text-muted mb-3">Course material taught to third-year Chemistry-Physics students at TTC-Bukavu.</p>
+                    <a href="../courses/MATHS_FOR_CHEMISTS.pdf" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+                        <i class="fas fa-file-pdf" aria-hidden="true"></i> Download Material
+                    </a>
+                </div>
+
+                <div class="pub-card mb-4 p-4 border rounded shadow-sm">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h3 class="h4 mb-0 text-primary">Linear Algebra and Analytic Geometry</h3>
+                        <span class="badge bg-secondary ms-3 fs-6">2022</span>
+                    </div>
+                    <p class="text-muted mb-3">Foundational material for first-year students at the École des Mines, University of Bukavu (UOB).</p>
+                    <a href="../courses/GUIDE_LA_AG.pdf" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+                        <i class="fas fa-file-pdf" aria-hidden="true"></i> Download Material
                     </a>
                 </div>
             </section>
+
         </div>
     </div>
-    
-            <!-- Footer -->
+
+    <!-- Footer -->
     <footer class="footer bg-dark text-white py-3 mt-5">
         <div class="container d-flex flex-wrap justify-content-between align-items-center">
-            <p class="mb-0 text-light small">&copy; 2026 Emmanuel Nyandu Kagarabi. All rights reserved. | Last Update: May 2026</p>
+            <p class="mb-0 text-light small">&copy; 2026 Emmanuel Nyandu Kagarabi. All rights reserved. | Last update: July 2026</p>
             <div class="social-links">
-                <a href="https://github.com/emmanuelnyandukagarabi" target="_blank" title="GitHub" class="text-light me-3 fs-5">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/emmanuel-nyandu-kagarabi-5410a4304/" target="_blank" title="LinkedIn" class="text-light fs-5">
-                    <i class="fab fa-linkedin"></i>
-                </a>
+                <a href="https://orcid.org/0009-0000-4837-4712" target="_blank" rel="noopener" title="ORCID" aria-label="ORCID" class="text-light me-3 fs-5"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+                <a href="https://github.com/emmanuelnyandukagarabi" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub" class="text-light me-3 fs-5"><i class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/emmanuel-nyandu-kagarabi-5410a4304/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn" class="text-light me-3 fs-5"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="contact.html" title="Email" aria-label="Email" class="text-light fs-5"><i class="fas fa-envelope" aria-hidden="true"></i></a>
             </div>
         </div>
     </footer>
